@@ -13,3 +13,14 @@ function addition(num){
 
 //power calculator
 //create a  function that takes voltage and current and returns the calculated power.
+function currentPower(voltage, current){
+    return voltage * current;
+}
+
+//Basketball Points
+//You are counting points for a basketball game,
+// given the amount of 2-pointers scored and 3-pointers scored,
+// find the final points for the team and return that value.
+function points(twoPointers, threePointers) {
+    return (twoPointers * 2) + (threePointers * 3);
+    }
