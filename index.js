@@ -24,3 +24,25 @@ function currentPower(voltage, current){
 function points(twoPointers, threePointers) {
     return (twoPointers * 2) + (threePointers * 3);
     }
+
+//Convert Hours into seconds
+//Write  a function that converts hours into seconds.
+ function hoursToSeconds(hours){
+    return hours * 60 * 60;
+}
+
+//Sum of Polygon Angles
+//Given an n-sided regular polygon n, 
+//return the total sum of internal angles (in degrees).
+
+//formula (n - 2) * 180
+
+function sumPolygon(n) {
+    return (n - 2) * 180;
+}
+
+
+
+
+
+
